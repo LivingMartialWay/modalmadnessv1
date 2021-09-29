@@ -2,6 +2,7 @@ import React from 'react';
 import youtube from '../../apis/youtube';
 import VideoDetail from '../VideoDetail';
 import Modal from '../Modal';
+import ToggleSwitch from '../ToggleSwitch';
 import './app.css';
 
 const KEY = 'AIzaSyBjt4ct6iJ8oEUCJzE-7iYzw3YNuDCK6Ng';
@@ -51,6 +52,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <Modal onClose={this.toggleModal} show={this.state.show} acceptTC={this.acceptTC}>Lorem.</Modal>
+      <ToggleSwitch onClick={this.toggleModal.bind(this)}></ToggleSwitch>
         <div className="ui container">
           <div className="ui grid">
             <div className="ui row">
