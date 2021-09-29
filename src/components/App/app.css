@@ -1,0 +1,19 @@
+.root {
+  height: 100vh;
+}
+
+.ui.segment {
+  background-color: #2C2F33;
+}
+
+.header {
+  color: white;
+}
+
+.video-item {
+  color: white;
+}
+
+.field {
+  font-size: 20px;
+}
