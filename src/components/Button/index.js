@@ -1,10 +1,11 @@
 import React from "react";
 import "./button.css";
 
-export default class Exit extends React.Component {
+export default class Button extends React.Component {
   acceptTC = e => {
     this.props.acceptTC && this.props.acceptTC(e);
   };
+  
   render() {
 
     return (

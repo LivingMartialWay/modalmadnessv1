@@ -1,7 +1,7 @@
 import React from "react";
 import "./content.css";
 
-export default class Title extends React.Component {
+export default class Content extends React.Component {
 
   render() {
 
