@@ -16,7 +16,7 @@ const VideoDetail = ({ video }) => {
         <div className="ui segment">
           <h4 className="ui header">Thank you Eden Ella!</h4>
           <p><a href="https://docs.google.com/document/d/15e4-RoE54Aj6Kz0lSgnaEFHNDmOv9IaMP-1CV4blPvs/edit?usp=sharing" target="_blank" rel="noreferrer">Click here to read the Developer's Log!</a></p>
-          </br>
+
           <p><a href="https://github.com/LivingMartialWay/modalmadnessv1" target="_blank" rel="noreferrer">Click here to view respository.</a></p>
       </div>
     </div>
