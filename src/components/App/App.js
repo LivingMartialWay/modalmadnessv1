@@ -2,11 +2,9 @@ import React from 'react';
 import youtube from '../../apis/youtube';
 import VideoDetail from '../VideoDetail';
 import Modal from '../Modal';
-import ToggleSwitch from '../ToggleSwitch';
 import Button2 from "../Button2";
 import './app.css';
 
-const KEY2 = 'AIzaSyAn5wnLbmZi_9E1Yfq4aMNqE25LuPKJqPQ';
 const KEY = 'AIzaSyBjt4ct6iJ8oEUCJzE-7iYzw3YNuDCK6Ng';
 
 class App extends React.Component {

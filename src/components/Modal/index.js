@@ -1,12 +1,9 @@
 import React from "react";
 import "./modal.css";
 import Title from "../Title"
-import Exit from "../Exit";
 import Content from "../Content"
 import Button from "../Button";
-import Shader from "../Shader";
 import Texit from "../Texit";
-import ToggleSwitch from "../ToggleSwitch";
 
 export default class Modal extends React.Component {
   onClose = e => {
